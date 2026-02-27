@@ -1,13 +1,26 @@
 {
   "name": "fault-query",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node scripts/generate-static-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jt202601/good.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jt202601/good/issues"
+  },
+  "homepage": "https://github.com/Jt202601/good#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "node-fetch": "^2.7.0"
+  }
 }
